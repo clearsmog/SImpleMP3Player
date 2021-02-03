@@ -8,3 +8,7 @@
 ![image](https://github.com/zqk666/SImpleMP3Player/blob/main/images/2.png)
 ## `上传音乐`
 ![image](https://github.com/zqk666/SImpleMP3Player/blob/main/images/3.png)
+## `播放界面`
+![image](https://github.com/zqk666/SImpleMP3Player/blob/main/images/4.png)
+## `导入歌单`
+![image](https://github.com/zqk666/SImpleMP3Player/blob/main/images/5.png)
