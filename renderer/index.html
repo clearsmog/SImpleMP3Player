@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Electron音乐播放器</title>
+		<link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css" />
+		<style type="text/css">
+			#trackList .col-2 .fas:hover {
+				cursor: pointer;
+			}
+			.milky {
+				font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+				text-transform: uppercase;
+				font-size: 60px;
+				color: indigo; /* #f1ebe5 */
+				text-shadow: 0 8px 9px #9dc4b1, 0px -2px 1px #fff;
+				font-weight: bold;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="text-center m-4 milky">Music Player</h1>
+		<div id="trackList" class="mt-4"></div>
+		<div class="container">
+			<button class="btn btn-primary btn-lg btn-block mt-4" type="button" id="add-music-btn">添加音乐</button>
+		</div>
+		<div class="container fixed-bottom bg-white pb-3">
+			<hr />
+			<div class="row my-2" id="player-status"></div>
+			<div class="progress">
+				<div class="progress-bar bg-info" id="player-progress" role="progressbar" style="width: 0%">0%</div>
+			</div>
+		</div>
+		<script src="https://kit.fontawesome.com/6fd5bc14f6.js" crossorigin="anonymous"></script>
+		<script>
+			require('./index.js')
+		</script>
+	</body>
+</html>
